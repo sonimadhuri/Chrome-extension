@@ -1,0 +1,16 @@
+{
+ "manifest_version": 2,
+"name": "Pin code manager",
+ "description": "This extension remembers the user pin ans saves the newly generated pin",
+ "version": "1.0",
+ "permissions":[
+   "storage",
+   "tabs",
+   "file:///*"
+ ],
+"browser_action": {
+ "default_icon": "img.png",
+ "default_popup": "popup.html",
+ "default_title": "My customised portal page!"
+}
+}
